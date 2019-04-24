@@ -6,6 +6,8 @@
     "name": "restfulResponse"
   },
   "keywords": [
+    "restful",
+    "response",
     "egg",
     "eggPlugin",
     "egg-plugin"
@@ -44,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-restful-response.git"
+    "url": "https://github.com/mecoepcoo/egg-restful-response.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/mecoepcoo/egg-restful-response/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-restful-response#readme",
+  "homepage": "https://github.com/mecoepcoo/egg-restful-response#readme",
   "author": "Tianzhen",
   "license": "MIT"
 }
