@@ -24,7 +24,7 @@ function successBody(data, extend) {
   };
 }
 
-function failBody(config, msg, cause, data, err) {
+function failBody(config, msg, cause, data, err = {}) {
   let body;
   if (config.restfulResponse && config.restfulResponse.showError) {
     body = {
@@ -94,7 +94,7 @@ module.exports = {
    * @param {String} body.url 建议用户向此 url 重定向
    * @param {Object} body.extend 额外信息
    */
-  sendSeeOthoer({ url = '', extend = {} }) {
+  sendSeeOthoer({ url = '', extend = {} } = {}) {
     this.status = code.SEE_OTHER;
     this.body = {
       data: {

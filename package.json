@@ -5,6 +5,9 @@
   "eggPlugin": {
     "name": "restfulResponse"
   },
+  "egg": {
+    "declarations": true
+  },
   "keywords": [
     "restful",
     "response",
@@ -38,8 +41,7 @@
   },
   "files": [
     "app",
-    "config",
-    "index.d.ts"
+    "config"
   ],
   "ci": {
     "version": "8, 10"
