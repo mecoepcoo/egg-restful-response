@@ -7,10 +7,10 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-restful-response.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-restful-response
-[travis-image]: https://img.shields.io/travis/eggjs/egg-restful-response.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-restful-response
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-restful-response.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-restful-response?branch=master
+[travis-image]: https://travis-ci.org/mecoepcoo/egg-restful-response.svg?branch=master&style=flat-square
+[travis-url]: https://travis-ci.org/mecoepcoo/egg-restful-response
+[codecov-image]: https://img.shields.io/codecov/c/github/mecoepcoo/egg-restful-response/master.svg?style=flat-square
+[codecov-url]: https://codecov.io/gh/mecoepcoo/egg-restful-response?branch=master
 [download-image]: https://img.shields.io/npm/dm/egg-restful-response.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-restful-response
 
