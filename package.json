@@ -20,6 +20,7 @@
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
+    "egg-ts-helper": "^1.25.2",
     "eslint": "^5.13.0",
     "eslint-config-egg": "^7.1.0"
   },
@@ -36,10 +37,10 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
+    "app",
     "config",
-    "app"
+    "app.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "8, 10"

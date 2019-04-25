@@ -1,10 +1,10 @@
 'use strict';
 
 /**
- * egg-restful-response default config
+ * egg-restful-response prod config
  * @member Config#restfulResponse
  * @property {String} SOME_KEY - some description
  */
 exports.restfulResponse = {
-  showError: true, // 显示具体错误信息
+  showError: false, // 不显示具体错误信息
 };

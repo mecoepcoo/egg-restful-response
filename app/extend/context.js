@@ -24,9 +24,9 @@ function successBody(data, extend) {
   };
 }
 
-function failBody(msg, cause, data, err) {
+function failBody(config, msg, cause, data, err) {
   let body;
-  if (this.config.showError) {
+  if (config.restfulResponse.showError) {
     body = {
       msg,
       cause,
@@ -51,6 +51,6 @@ module.exports = {
 
   sendBadRequest({ msg = '', cause = '', data = {} } = {}, err) {
     this.status = code.BAD_REQUEST;
-    this.body = failBody(msg, cause, data, err);
+    this.body = failBody(this.app.config, msg, cause, data, err);
   },
 };
