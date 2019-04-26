@@ -1,6 +1,6 @@
 {
   "name": "egg-restful-response",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Restful response plugin for egg.js",
   "eggPlugin": {
     "name": "restfulResponse"
@@ -31,17 +31,17 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
-    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles",
+    "ci": "npm run lint && npm run cov",
     "autod": "autod"
   },
   "files": [
     "app",
-    "config"
+    "config",
+    "typings"
   ],
   "ci": {
     "version": "8, 10"
