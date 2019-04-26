@@ -5,7 +5,7 @@
 [![Test coverage][codecov-image]][codecov-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-restful-response.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/dt/egg-restful-response.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-restful-response
 [travis-image]: https://img.shields.io/travis/mecoepcoo/egg-restful-response/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/mecoepcoo/egg-restful-response
