@@ -1,6 +1,6 @@
 {
   "name": "egg-restful-response",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "types": "index.d.ts",
   "description": "Restful response plugin for egg.js",
   "eggPlugin": {

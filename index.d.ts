@@ -162,7 +162,7 @@ declare module 'egg' {
      * @example FailBody
      * { msg?: string, cause?: string, Data?: Object }
      */
-    sendInternalServerany(body?: FailBody, err?: any);
+    sendInternalServerError(body?: FailBody, err?: any);
 
     /**
      * 503 服务暂时不可用
