@@ -17,6 +17,12 @@ interface SeeOtherBody {
 }
 
 declare module 'egg' {
+  interface EggAppConfig {
+    restfulResponse: {
+      showError?: boolean;
+    }
+  }
+
   interface Context {
     /**
      * 200 [GET] 服务器成功返回用户请求的数据
